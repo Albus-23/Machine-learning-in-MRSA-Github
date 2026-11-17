@@ -1,0 +1,16 @@
+name: mrsa_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - rdkit
+  - xgboost
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyterlab
+  - pip:
+      - -r requirements_new.txt
